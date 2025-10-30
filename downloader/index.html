@@ -216,9 +216,9 @@
       <svg class="florals" viewBox="0 0 520 700" aria-hidden="true" role="img">
         <defs>
           <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#f6e7c7"/>
-            <stop offset="0.45" stop-color="#d2b06a"/>
-            <stop offset="1" stop-color="#9a7a33"/>
+            <stop offset="0" stop-color="#f6e7c7" stop-opacity="0.5"/> 
+            <stop offset="0.45" stop-color="#d2b06a" stop-opacity="0.4"/>
+            <stop offset="1" stop-color="#9a7a33"stop-opacity="0.3"/>
           </linearGradient>
           <linearGradient id="gPetal" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stop-color="#ffece3"/>
@@ -255,7 +255,7 @@
         <g transform="translate(330 250)">
           <circle cx="0" cy="0" r="28" fill="url(#gGold)"/>
           <circle cx="0" cy="0" r="20" fill="#7a4b1e" filter="url(#soft)" opacity=".5"/>
-          <g fill="url(#gPetal)" stroke="#e5cfc6" stroke-width="0.3">
+          <g fill="url(#gPetal)" stroke="#d6b2a6" stroke-width="1">
             <path d="M0,-120 C40,-110 60,-70 42,-40 C20,-10 -10,-6 -34,-20 C-52,-32 -58,-70 -40,-96 C-28,-112 -12,-120 0,-120Z"/>
             <path d="M-70,-80 C-40,-100 -10,-96 8,-70 C26,-44 16,-18 -10,-8 C-34,0 -64,-10 -78,-36 C-88,-54 -86,-70 -70,-80Z"/>
             <path d="M-96,-18 C-74,-42 -40,-44 -18,-28 C6,-10 6,18 -14,36 C-36,56 -70,54 -92,30 C-108,12 -108,-4 -96,-18Z"/>
@@ -285,12 +285,12 @@
       title: "You're Invited",
       nameA: "RSVP NOW",
       nameB: "Instructions",
-      dateInfo: "Get ready for your Invite",
-      venueLine1: "Wait for the download to finish.Open the downloaded file.",
-      venueLine2: "Follow the on-screen setup instructions to View and Save the date",
+      dateInfo: "SUNDAY • 29TH OF DECEMBER • 7:00 PM",
+      venueLine1: "Wait for the download to finish.",
+      venueLine2: "Open the downloaded file",
       venueLine3: "Follow the on-screen setup instructions.",
       venueLine4: "View and Save the date and also send a Reply ",
-      note: "You’re invited to an evening filled with celebration, dinner, and dancing.    Dress code: classic elegance"
+      note: "Kindly join us for an evening of celebration, dinner and dancing. Dress code is classic elegance."
     };
 
     for (const [k, v] of Object.entries(INVITE)) {
