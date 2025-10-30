@@ -233,11 +233,35 @@
           </filter>
         </defs>
 
-        <!-- stems -->
-        <g fill="none" stroke="url(#gGold)" stroke-width="6" opacity=".9">
-          <path d="M90,640 C160,520 160,420 220,340 C280,260 330,200 400,150" />
-          <path d="M220,640 C280,540 300,480 330,430" />
-        </g>
+        <!-- stems with flowers -->
+<g fill="none" stroke="url(#gGold)" stroke-width="6" opacity=".9">
+  <!-- first stem -->
+  <path d="M90,640 C160,520 160,420 220,340 C280,260 330,200 400,150" />
+
+  <!-- flower for first stem -->
+  <g transform="translate(400,150)">
+    <!-- petals -->
+    <ellipse cx="0" cy="-8" rx="4" ry="8" fill="#f28482"/>
+    <ellipse cx="0" cy="8" rx="4" ry="8" fill="#f28482"/>
+    <ellipse cx="8" cy="0" rx="4" ry="8" transform="rotate(90)" fill="#f6bd60"/>
+    <ellipse cx="-8" cy="0" rx="4" ry="8" transform="rotate(90)" fill="#f6bd60"/>
+    <!-- flower center -->
+    <circle cx="0" cy="0" r="3" fill="#ffd166"/>
+  </g>
+
+  <!-- second stem -->
+  <path d="M220,640 C280,540 300,480 330,430" />
+
+  <!-- flower for second stem -->
+  <g transform="translate(330,430)">
+    <ellipse cx="0" cy="-6" rx="3" ry="6" fill="#f28482"/>
+    <ellipse cx="0" cy="6" rx="3" ry="6" fill="#f28482"/>
+    <ellipse cx="6" cy="0" rx="3" ry="6" transform="rotate(90)" fill="#f6bd60"/>
+    <ellipse cx="-6" cy="0" rx="3" ry="6" transform="rotate(90)" fill="#f6bd60"/>
+    <circle cx="0" cy="0" r="2" fill="#ffd166"/>
+  </g>
+</g>
+
 
         <!-- leaves (burgundy + cream) -->
         <g>
